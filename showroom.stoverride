@@ -1,0 +1,17 @@
+proxy-groups:
+  - name: showroom
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 选择节点
+rules:
+  - DOMAIN-SUFFIX,showroom-live.com,showroom
+  - DOMAIN-SUFFIX,showroom-txlive.com,showroom
+  - DOMAIN-SUFFIX,5pbo1uvn.com,showroom
+  - DOMAIN-SUFFIX,lfangshuo.com,showroom
+  - DOMAIN-SUFFIX,hhhjxkj.com,showroom
+  - DOMAIN,overseas-webrtc.tliveplay.com,showroom
+  - DOMAIN,webrtc-signal-scheduler.tlivesource.com,showroom
+  - DOMAIN,1318007143.sdk-license.com,showroom
+  - DOMAIN,webrtc-dk.tliveplay.com,showroom
+  - DOMAIN,sdkdc.live.tlivesource.com,showroom
