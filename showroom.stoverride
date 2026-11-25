@@ -1,6 +1,8 @@
 proxy-groups:
   - name: showroom
     type: select
+    include-all: true
+    proxies: []
 rules:
   - DOMAIN-SUFFIX,showroom-live.com,showroom
   - DOMAIN-SUFFIX,showroom-txlive.com,showroom
