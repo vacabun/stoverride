@@ -2,8 +2,9 @@
 proxy-groups:
   - name: APNs
     type: select
+    include-all: true
+    proxies: []
 rules:
-  - DOMAIN,identity.apple.com,APNs
   - DOMAIN-SUFFIX,akadns.net,APNs
   - DOMAIN-SUFFIX,push.apple.com,APNs
   - DOMAIN-KEYWORD,apple.com.edgekey.net,APNs
